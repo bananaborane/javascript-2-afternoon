@@ -170,14 +170,14 @@ methodCollection.logHello();
 */
 
 //Code Here
- function makePerson(name, birthday, ssn){
+ const makePerson = (name, birthday, ssn)=>{
    return {
      name,
      birthday,
      ssn
    }
  }
-
+ 
 
 ////////// PROBLEM 7 //////////
 
@@ -188,7 +188,7 @@ methodCollection.logHello();
 
 //Code Here
 
-let makeCard = function(cardNumber, expirationDate, securityCode){
+let makeCard = (cardNumber, expirationDate, securityCode)=>{
   return {
     cardNumber,
     expirationDate,
